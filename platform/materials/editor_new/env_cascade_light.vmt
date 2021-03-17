@@ -1,0 +1,7 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$basetexture" "editor_new/env_cascade_light"
+	"$no_fullbright" 1
+}
