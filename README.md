@@ -7,28 +7,28 @@ A Hammer fgd config containing additional enhancements to the default csgo fgd, 
 
 | Entity  | New Icon / MDL | Fixes | Added | 
 | ------------- | :-------------: | :-------------: | :-------------: |
-| game_player_equip | X | X | |
-| info_map_parameters | X | | |
 | env_cascade_light | X | | |
 | env_sun | X | | |
-| info_player_terrorist | X | | |
-| info_player_counterterrorist | X | | |
+| func_reflective_glass | | X | |
+| game_player_equip | X | X | |
 | hostage_entity / info_hostage_spawn | X | | |
-| prop_sphere | | | X |
+| info_map_parameters | X | | |
+| info_player_counterterrorist | X | | |
+| info_player_terrorist | X | | |
+| logic_eventlistener | X | | |
+| logic_script | | X | |
 | monster_generic | | | X |
 | point_camera | | | X |
-| logic_eventlistener | X | | |
-| weapon_c4 | X | | |
+| prop_sphere | | | X |
 | trigger_brush (point entity) | | | X |
 | trigger_vphysics_motion | | X | X |
-| func_reflective_glass | | X | |
-| logic_script | | X | |
+| weapon_c4 | X | | |
 
 ## Installation
 
-### Extract to your CS:GO installation located in your Steam folder, usually:
-
-C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\
+- [Download the archive](https://github.com/ZooLSmith/Enhanced-CSGO-FGD/archive/master.zip)
+- Extract to your CS:GO installation located in your Steam folder, usually:
+`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\`
 
 ### In Hammer: 
 - Tools -> Options...
