@@ -482,8 +482,8 @@
 	SetLinearForce(float) : "Linear force (0 disables)" : "0.0"
 	input SetLinearForce(float) : "Linear force (0 disables)"
 
-	SetLinearForceAngles(angle) : "Linear force Dir" : "0 0 0"
-	input SetLinearForceAngles(angle) : "Direction of linear force (Pitch Yaw Roll (Y Z X))"
+	SetLinearForceAngles(angle) : "Direction of linear force (Pitch Yaw Roll (Y Z X))" : "0 0 0"
+//	input SetLinearForceAngles(angle) : "Direction of linear force (Pitch Yaw Roll (Y Z X))"
 
 	ParticleTrailMaterial(string) : "Particle Trail Material" : : "Spawned sprite material on random BBOX positions of the model, must have $additive 1, blank to disable particles"
 	ParticleTrailLifetime(float) : "Particle Trail Lifetime" : 4 : "Lifetime of the particles to emit"
@@ -494,6 +494,7 @@
 	input	Enable(void) : "Enable the trigger"
 	input	Disable(void): "Disable the trigger"
 	input	Toggle(void) : "Toggle enable/disable"
+
 ]
 
 @SolidClass base(Targetname, Parentname, RenderFields, Global, Inputfilter, EnableDisable, Shadow, Reflection, PaintableBrush) = func_reflective_glass : 
